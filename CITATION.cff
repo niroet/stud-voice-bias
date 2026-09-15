@@ -36,7 +36,5 @@ keywords:
   - healthcare AI
   - null result
   - equivalence testing
-license:
-  - MIT
-  - CC-BY-4.0
+license: MIT
 version: "1.0.0"
