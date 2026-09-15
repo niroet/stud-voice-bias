@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "N":          81,
+    "n_trials":         648,
+    "generated_from": "study results/stud_wide-2.csv",
+    "r_version": "4.6.0"
+  },
+  "data_notes": {
+    "wide_sessions":          81,
+    "raw_long_sessions":          86,
+    "raw_long_rows":         685,
+    "incomplete_sessions_excluded":           5,
+    "sessions_with_duplicate_rows":           8,
+    "resolution": "Analysis uses the de-duplicated wide export as the authoritative source (N=81 completed sessions, 648 trials). The raw long export contained 5 incomplete sessions and 8 sessions with duplicated trial rows (double-submitted responses); both issues are absent from the wide export."
+  },
+  "sample": {
+    "N":          81,
+    "age": {
+      "18–24":          43,
+      "25–34":          26,
+      "35–44":           2,
+      "45–54":           6,
+      "55+":           4
+    },
+    "gender": {
+      "divers":           3,
+      "männlich":          42,
+      "weiblich":          36
+    },
+    "block_order": {
+      "anthro_first":          39,
+      "machine_first":          42
+    },
+    "exp_symptom_checkers": {
+      "median":           3,
+      "q1":           2,
+      "q3":           5,
+      "mean": 3.382716049,
+      "sd": 2.028348474,
+      "min":           1,
+      "max":           7,
+      "raw": [          7,           7,           3,           5,           2,           3,           5,           3,           5,           1,           2,           2,           7,           7,           1,           3,           7,           7,           6,           5,           3,           1,           3,           7,           7,           3,           5,           2,           5,           2,           2,           1,           5,           2,           1,           2,           7,           1,           7,           4,           4,           3,           7,           3,           1,           7,           2,           3,           1,           3,           2,           2,           2,           3,           2,           1,           1,           5,           3,           2,           2,           1,           3,           2,           2,           4,           3,           1,           4,           2,           4,           4,           2,           6,           5,           1,           2,           6,           3,           1,           1]
+    },
+    "exp_voice_ai": {
+      "median":           3,
+      "q1":           2,
+      "q3":           5,
+      "mean": 3.518518519,
+      "sd": 1.917753315,
+      "min":           1,
+      "max":           7,
+      "raw": [          6,           7,           3,           3,           4,           2,           1,           4,           6,           1,           1,           3,           7,           6,           7,           3,           7,           7,           2,           3,           7,           2,           1,           4,           4,           5,           4,           3,           2,           1,           2,           7,           3,           6,           1,           3,           3,           4,           7,           5,           4,           4,           2,           2,           2,           7,           3,           3,           3,           1,           4,           2,           2,           1,           1,           3,           5,           1,           1,           5,           4,           1,           1,           2,           4,           4,           2,           2,           5,           4,           4,           6,           1,           6,           5,           3,           2,           5,           5,           4,           2]
+    }
+  },
+  "cell_descriptives": {
+    "anthropomorphic.confirm": {
+      "cell": "anthropomorphic.confirm",
+      "n_trials":         162,
+      "shift_mean": 0.9567901235,
+      "shift_sd": 1.149392307,
+      "shift_median":           1,
+      "change_rate": 0.006172839506,
+      "change_n":           1
+    },
+    "anthropomorphic.refute": {
+      "cell": "anthropomorphic.refute",
+      "n_trials":         162,
+      "shift_mean": -0.0987654321,
+      "shift_sd": 1.324447038,
+      "shift_median":           0,
+      "change_rate": 0.4691358025,
+      "change_n":          76
+    },
+    "machine.confirm": {
+      "cell": "machine.confirm",
+      "n_trials":         162,
+      "shift_mean": 0.962962963,
+      "shift_sd": 1.178950417,
+      "shift_median":           1,
+      "change_rate": 0.01851851852,
+      "change_n":           3
+    },
+    "machine.refute": {
+      "cell": "machine.refute",
+      "n_trials":         162,
+      "shift_mean": -0.07407407407,
+      "shift_sd": 1.530459094,
+      "shift_median":           0,
+      "change_rate": 0.4444444444,
+      "change_n":          72
+    }
+  },
+  "condition_descriptives": {
+    "confirm": {
+      "condition": "confirm",
+      "shift_mean": 0.9598765432,
+      "shift_sd": 1.162465613,
+      "change_rate": 0.01234567901,
+      "change_n":           4,
+      "n_trials":         324
+    },
+    "refute": {
+      "condition": "refute",
+      "shift_mean": -0.08641975309,
+      "shift_sd": 1.429001088,
+      "change_rate": 0.4567901235,
+      "change_n":         148,
+      "n_trials":         324
+    }
+  },
+  "manipulation": {
+    "items": [
+      {
+        "item": "pleasantness",
+        "anthro_mean": 4.481481481,
+        "anthro_md":           5,
+        "machine_mean":  3.37037037,
+        "machine_md":           3,
+        "diff_mean": 1.111111111,
+        "V":        1882,
+        "Z": 4.374283231,
+        "p": 1.235664446e-05,
+        "r": 0.5304597587,
+        "t":  4.96903995,
+        "df":          80,
+        "p_t": 3.750851617e-06,
+        "dz":  0.55211555,
+        "p_holm": 4.942657786e-05
+      },
+      {
+        "item": "genderedness",
+        "anthro_mean": 6.333333333,
+        "anthro_md":           7,
+        "machine_mean": 3.469135802,
+        "machine_md":           3,
+        "diff_mean": 2.864197531,
+        "V":        2701,
+        "Z": 7.462578909,
+        "p": 8.659739592e-14,
+        "r": 0.8734287965,
+        "t": 15.28600075,
+        "df":          80,
+        "p_t": 1.88935176e-25,
+        "dz": 1.698444528,
+        "p_holm": 6.927791674e-13
+      },
+      {
+        "item": "competence",
+        "anthro_mean": 4.148148148,
+        "anthro_md":           4,
+        "machine_mean": 4.172839506,
+        "machine_md":           4,
+        "diff_mean": -0.02469135802,
+        "V":         753,
+        "Z": -0.147766043,
+        "p": 0.885958502,
+        "r": 0.01992476918,
+        "t": -0.1612431394,
+        "df":          80,
+        "p_t": 0.8723084148,
+        "dz": -0.01791590438,
+        "p_holm": 0.885958502
+      },
+      {
+        "item": "trust",
+        "anthro_mean": 3.925925926,
+        "anthro_md":           4,
+        "machine_mean": 3.567901235,
+        "machine_md":           3,
+        "diff_mean": 0.3580246914,
+        "V":         943,
+        "Z": 2.387714792,
+        "p": 0.01717151487,
+        "r": 0.3311164659,
+        "t": 2.561261877,
+        "df":          80,
+        "p_t": 0.01230816283,
+        "dz": 0.284584653,
+        "p_holm": 0.03769190464
+      },
+      {
+        "item": "humanness",
+        "anthro_mean": 4.012345679,
+        "anthro_md":           4,
+        "machine_mean": 2.197530864,
+        "machine_md":           2,
+        "diff_mean": 1.814814815,
+        "V":        2058,
+        "Z": 6.486905187,
+        "p": 8.95512553e-11,
+        "r": 0.8046015632,
+        "t": 9.162480502,
+        "df":          80,
+        "p_t": 4.212129278e-14,
+        "dz": 1.018053389,
+        "p_holm": 6.268587871e-10
+      },
+      {
+        "item": "warmth",
+        "anthro_mean": 3.938271605,
+        "anthro_md":           4,
+        "machine_mean": 2.888888889,
+        "machine_md":           3,
+        "diff_mean": 1.049382716,
+        "V":      1898.5,
+        "Z": 4.806456646,
+        "p": 1.560776848e-06,
+        "r": 0.5872021378,
+        "t": 5.646625342,
+        "df":          80,
+        "p_t": 2.410102633e-07,
+        "dz": 0.6274028158,
+        "p_holm": 7.803884242e-06
+      },
+      {
+        "item": "intelligibility",
+        "anthro_mean": 6.024691358,
+        "anthro_md":           6,
+        "machine_mean": 5.654320988,
+        "machine_md":           6,
+        "diff_mean": 0.3703703704,
+        "V":         591,
+        "Z": 2.502809129,
+        "p": 0.01256396821,
+        "r": 0.3957288698,
+        "t": 2.626128657,
+        "df":          80,
+        "p_t": 0.01034555079,
+        "dz": 0.291792073,
+        "p_holm": 0.03769190464
+      },
+      {
+        "item": "naturalness",
+        "anthro_mean": 3.975308642,
+        "anthro_md":           4,
+        "machine_mean":  2.49382716,
+        "machine_md":           2,
+        "diff_mean": 1.481481481,
+        "V":        1871,
+        "Z": 5.604527745,
+        "p": 2.12927509e-08,
+        "r": 0.7005659681,
+        "t": 7.392843956,
+        "df":          80,
+        "p_t": 1.236532589e-10,
+        "dz": 0.8214271062,
+        "p_holm": 1.277565054e-07
+      }
+    ],
+    "humanness": {
+      "item": "humanness",
+      "anthro_mean": 4.012345679,
+      "anthro_md":           4,
+      "machine_mean": 2.197530864,
+      "machine_md":           2,
+      "diff_mean": 1.814814815,
+      "V":        2058,
+      "Z": 6.486905187,
+      "p": 8.95512553e-11,
+      "r": 0.8046015632,
+      "t": 9.162480502,
+      "df":          80,
+      "p_t": 4.212129278e-14,
+      "dz": 1.018053389,
+      "p_holm": 6.268587871e-10
+    }
+  },
+  "friedman": {
+    "chi2": 88.23849372,
+    "df":           3,
+    "p": 5.234369919e-19,
+    "kendall_w": 0.3631213733,
+    "N":          81,
+    "cell_means": {
+      "anthropomorphic.confirm": 0.9567901235,
+      "anthropomorphic.refute": -0.0987654321,
+      "machine.confirm": 0.962962963,
+      "machine.refute": -0.07407407407
+    },
+    "posthoc": [
+      {
+        "a": "anthropomorphic.confirm",
+        "b": "anthropomorphic.refute",
+        "V":        2337,
+        "Z": 6.439321603,
+        "p": 1.223565693e-10,
+        "r": 0.7696461405,
+        "p_holm": 7.341394159e-10
+      },
+      {
+        "a": "anthropomorphic.confirm",
+        "b": "machine.confirm",
+        "V":       828.5,
+        "Z": 0.01637502503,
+        "p": 0.9902012116,
+        "r": 0.00216892505,
+        "p_holm":           1
+      },
+      {
+        "a": "anthropomorphic.confirm",
+        "b": "machine.refute",
+        "V":      2431.5,
+        "Z": 5.656044771,
+        "p": 1.573633135e-08,
+        "r": 0.6575018492,
+        "p_holm": 4.720899405e-08
+      },
+      {
+        "a": "anthropomorphic.refute",
+        "b": "machine.confirm",
+        "V":       198.5,
+        "Z": -6.14254488,
+        "p": 8.272794416e-10,
+        "r": 0.7341745375,
+        "p_holm": 4.136397208e-09
+      },
+      {
+        "a": "anthropomorphic.refute",
+        "b": "machine.refute",
+        "V":       942.5,
+        "Z": -0.2410529233,
+        "p": 0.8122626924,
+        "r": 0.03061375188,
+        "p_holm":           1
+      },
+      {
+        "a": "machine.confirm",
+        "b": "machine.refute",
+        "V":        2422,
+        "Z": 5.923348406,
+        "p": 3.207996757e-09,
+        "r": 0.6932754927,
+        "p_holm": 1.283198703e-08
+      }
+    ]
+  },
+  "h1": {
+    "bias_anthro": {
+      "median":           1,
+      "q1":         0.5,
+      "q3":           2,
+      "mean": 1.055555556,
+      "sd": 1.036822068,
+      "min":        -1.5,
+      "max":         3.5
+    },
+    "bias_machine": {
+      "median":           1,
+      "q1":         0.5,
+      "q3":         1.5,
+      "mean": 1.037037037,
+      "sd": 1.254436571,
+      "min":          -2,
+      "max":           4
+    },
+    "diff": {
+      "median":           0,
+      "q1":          -1,
+      "q3":           1,
+      "mean": 0.01851851852,
+      "sd":  1.31444961,
+      "min":        -2.5,
+      "max":         3.5
+    },
+    "test_onesided": {
+      "V":      1269.5,
+      "Z": -0.04910127426,
+      "p": 0.5207315037,
+      "r": 0.005827249169,
+      "n":          71
+    },
+    "test_twosided": {
+      "p": 0.9631405097
+    },
+    "simple_anthro": {
+      "Z": 6.439321603,
+      "p": 6.11782702e-11,
+      "r": 0.7696461405
+    },
+    "simple_machine": {
+      "Z": 5.923348406,
+      "p": 1.603998422e-09,
+      "r": 0.6932754927
+    }
+  },
+  "mcnemar": {
+    "condition": {
+      "label": "confirm vs refute",
+      "table": {
+        "n00":          17,
+        "n01":          60,
+        "n10":           0,
+        "n11":           4
+      },
+      "discordant_b":          60,
+      "discordant_c":           0,
+      "chi2": 58.01666667,
+      "p": 2.599063923e-14,
+      "p_exact": 1.734723476e-18,
+      "rate1": 0.04938271605,
+      "rate2": 0.7901234568
+    },
+    "voice_within_refute": {
+      "label": "refute/anthro vs refute/machine",
+      "table": {
+        "n00":          17,
+        "n01":          11,
+        "n10":          16,
+        "n11":          37
+      },
+      "discordant_b":          11,
+      "discordant_c":          16,
+      "chi2": 0.5925925926,
+      "p": 0.4414183268,
+      "p_exact": 0.4420683384,
+      "rate1": 0.6543209877,
+      "rate2": 0.5925925926
+    }
+  },
+  "supervisor": {
+    "h1a": {
+      "label": "confirm vs refute",
+      "table": {
+        "n00":          17,
+        "n01":          60,
+        "n10":           0,
+        "n11":           4
+      },
+      "discordant_b":          60,
+      "discordant_c":           0,
+      "chi2": 58.01666667,
+      "p": 2.599063923e-14,
+      "p_exact": 1.734723476e-18,
+      "rate1": 0.04938271605,
+      "rate2": 0.7901234568
+    },
+    "h1b": {
+      "confirm_mean": 5.422839506,
+      "refute_mean": 4.336419753,
+      "confirm_md":         5.5,
+      "refute_md":        4.25,
+      "diff_mean": 1.086419753,
+      "V":      2819.5,
+      "Z": 7.037027529,
+      "p": 1.000359448e-12,
+      "r": 0.8072024175,
+      "n":          76
+    },
+    "h1c": {
+      "confirm_mean":  2721.29321,
+      "refute_mean":  5996.96142,
+      "confirm_md":      2152.5,
+      "refute_md":     3908.75,
+      "diff_mean": -3275.66821,
+      "shapiro_W": 0.3338409511,
+      "shapiro_p": 2.157826345e-17,
+      "t": -2.625886131,
+      "df":          80,
+      "p_t": 0.005176163696,
+      "dz": -0.2917651257,
+      "wilcox_Z": -6.085461743,
+      "wilcox_p": 5.89375916e-10,
+      "wilcox_r": 0.6761624159,
+      "n":          81
+    },
+    "h2": [
+      {
+        "voice": "anthropomorphic",
+        "a": {
+          "label": "confirm vs refute",
+          "table": {
+            "n00":          27,
+            "n01":          53,
+            "n10":           1,
+            "n11":           0
+          },
+          "discordant_b":          53,
+          "discordant_c":           1,
+          "chi2": 48.16666667,
+          "p": 3.914871905e-12,
+          "p_exact": 6.106226635e-15,
+          "rate1": 0.01234567901,
+          "rate2": 0.6543209877
+        },
+        "b": {
+          "confirm_mean": 5.407407407,
+          "refute_mean": 4.302469136,
+          "confirm_md":         5.5,
+          "refute_md":           4,
+          "diff_mean": 1.104938272,
+          "V":      2331.5,
+          "Z": 6.402905915,
+          "p": 7.770572385e-11,
+          "r": 0.7652936333,
+          "n":          70
+        },
+        "c": {
+          "confirm_mean": 2896.777778,
+          "refute_mean": 5243.925926,
+          "confirm_md":        2002,
+          "refute_md":        3710,
+          "diff_mean": -2347.148148,
+          "shapiro_W": 0.498602497,
+          "shapiro_p": 3.597675374e-15,
+          "t": -2.558009947,
+          "df":          80,
+          "p_t": 0.006207435828,
+          "dz": -0.2842233274,
+          "wilcox_Z": -5.598153975,
+          "wilcox_p": 1.098034806e-08,
+          "wilcox_r": 0.6220171083,
+          "n":          81
+        }
+      },
+      {
+        "voice": "machine",
+        "a": {
+          "label": "confirm vs refute",
+          "table": {
+            "n00":          33,
+            "n01":          45,
+            "n10":           0,
+            "n11":           3
+          },
+          "discordant_b":          45,
+          "discordant_c":           0,
+          "chi2": 43.02222222,
+          "p": 5.412161289e-11,
+          "p_exact": 5.684341886e-14,
+          "rate1": 0.03703703704,
+          "rate2": 0.5925925926
+        },
+        "b": {
+          "confirm_mean": 5.438271605,
+          "refute_mean":  4.37037037,
+          "confirm_md":         5.5,
+          "refute_md":         4.5,
+          "diff_mean": 1.067901235,
+          "V":        2415,
+          "Z": 5.884101113,
+          "p": 2.034823996e-09,
+          "r": 0.6886819445,
+          "n":          73
+        },
+        "c": {
+          "confirm_mean": 2545.808642,
+          "refute_mean": 6749.996914,
+          "confirm_md":        2180,
+          "refute_md":        3628,
+          "diff_mean": -4204.188272,
+          "shapiro_W": 0.2921964686,
+          "shapiro_p": 6.890859015e-18,
+          "t": -2.402295085,
+          "df":          80,
+          "p_t": 0.009304715416,
+          "dz": -0.2669216761,
+          "wilcox_Z": -5.661715857,
+          "wilcox_p": 7.596850995e-09,
+          "wilcox_r": 0.6290795397,
+          "n":          81
+        }
+      }
+    ]
+  },
+  "sensitivity": {
+    "n_trials_removed":           8,
+    "n_participants_dropped":           1,
+    "N_used":          80,
+    "friedman_chi2": 85.58723404,
+    "friedman_p": 1.941337464e-18,
+    "h1_p": 0.450598678,
+    "h1_Z": 0.1270361161
+  }
+}

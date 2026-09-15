@@ -1,0 +1,9 @@
+{
+	"name": "STUD",
+	"short_name": "STUD",
+	"start_url": "/study",
+	"display": "standalone",
+	"background_color": "#f8fafc",
+	"theme_color": "#5a8fd8",
+	"icons": []
+}

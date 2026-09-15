@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, data or materials, please cite them using these metadata."
+type: software
+title: "Study app, data, analysis code and materials for: What's the Difference? Voice Design and Confirmation Bias in AI-Assisted Self-Diagnosis: Anthropomorphic vs. Machine-Like Voice Output"
+authors:
+  - given-names: Niklas
+    family-names: Röthlingshöfer
+    affiliation: Technische Hochschule Ingolstadt
+  - given-names: Emma
+    family-names: Winkler
+    affiliation: Technische Hochschule Ingolstadt
+  - given-names: Melanie
+    family-names: Löffler
+    affiliation: Technische Hochschule Ingolstadt
+  - given-names: Emely
+    family-names: Rosbach
+    affiliation: Technische Hochschule Ingolstadt
+abstract: >-
+  Study application, pseudonymised data, analysis code and materials for a
+  within-subjects online experiment (N = 81, 648 trials) on whether the voice design
+  of an AI symptom checker moderates confirmation bias in lay self-diagnosis.
+  Participants heard an AI recommendation that confirmed or refuted their initial
+  diagnosis, spoken by an anthropomorphic or a machine-like voice, and then decided
+  again. The direction of the recommendation affected decisions, and the voice did
+  not moderate this effect.
+keywords:
+  - confirmation bias
+  - automation bias
+  - anthropomorphism
+  - voice user interface
+  - text-to-speech
+  - AI symptom checker
+  - self-diagnosis
+  - human-AI interaction
+  - trust in AI
+  - healthcare AI
+  - null result
+  - equivalence testing
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0.0"

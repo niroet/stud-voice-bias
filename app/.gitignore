@@ -1,0 +1,10 @@
+node_modules/
+.svelte-kit/
+build/
+.env
+*.db*
+test-results/
+playwright-report/
+static/audio/*
+!static/audio/.gitkeep
+!static/audio/placeholder.mp3
